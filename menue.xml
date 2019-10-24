@@ -4,10 +4,12 @@
   <item
     android:id="@+id/menu_info"
     android:icon="@drawable/ic_info_outline_white_24dp"
+        // this doesnt popup
     app:showAsAction="ifRoom" // there is room for a menue pic
     android:title="Info"/>
   <item
     android:id="@+id/menu_overflow"
+       // this popup
     app:showAsAction="never" // no room for a pic
     android:title="Overflow"/>
 </menu>
